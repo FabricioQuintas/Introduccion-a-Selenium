@@ -25,7 +25,7 @@ class SearchTests(unittest.TestCase):
     def test_search_salt_shaker(self):
         driver = self.driver
         search_field = driver.find_element_by_name("q")
-        search_Field.clear()
+        search_field.clear()
         search_field.send_keys("salt shaker")
         search_field.submit()
 
