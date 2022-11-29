@@ -35,5 +35,5 @@ class SearchTests(unittest.TestCase):
         # Check if there are 1 only result
         self.assertEqual(1, len(products))
 
-    def tearDown(cls):
-        cls.driver.quit()
+    def tearDown(self):
+        self.driver.quit()

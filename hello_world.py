@@ -42,8 +42,8 @@ class Search(unittest.TestCase):
     def test_icon_cart(self):
         icon_cart = self.driver.find_element(By.CSS_SELECTOR, "div.header-minicart span.icon")
 
-    def tearDown(cls):
-        cls.driver.quit()
+    def tearDown(self):
+        self.driver.quit()
 
 
 if __name__ == '__main__':

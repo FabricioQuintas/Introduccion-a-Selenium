@@ -22,8 +22,8 @@ class AssertionTest(unittest.TestCase):
     def test_search_field(self):
         self.assertTrue(self.is_element_present(By.NAME, "q"))
 
-    def tearDown(cls):
-        cls.driver.quit()
+    def tearDown(self):
+        self.driver.quit()
 
     def is_element_present(self, how, what):
         '''
