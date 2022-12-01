@@ -1,7 +1,5 @@
 import unittest
 from selenium import webdriver
-from api_data_mock import ApiDataMock # our user values
-
 
 class RegisterNewUser(unittest.TestCase):
 
